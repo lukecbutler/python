@@ -10,15 +10,17 @@ Output: true
 Example 2:
 Input: nums = [1, 2, 3, 4]
 Output: false
+
+notion link: https://www.notion.so/Contains-Duplicates-3196fc6e7e988023a1a7e805b8fc72ee
 '''
 
 def hasDuplicate(nums: list[int]) -> bool:
     mySet = set()
-    for i in nums:
-        if i in mySet:
+    for element in nums:
+        if element in mySet:
             return True
         else:
-            mySet.add(i)
+            mySet.add(element)
 
     return False
 
