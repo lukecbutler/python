@@ -3,7 +3,7 @@ import socket
 import tempfile
 import subprocess
 
-ALLOWED_SITE = "w3schools.com"
+ALLOWED_SITE = "www.w3schools.com"
 
 def get_ip(domain):
     return socket.gethostbyname(domain)
