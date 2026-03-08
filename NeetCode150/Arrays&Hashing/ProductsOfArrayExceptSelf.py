@@ -38,9 +38,6 @@ def productsOfArrayExceptSelf(nums: list[int]) -> list[int]:
     return return_array
 
 
-        
-
-
 if __name__ == "__main__":
     nums = [-1,0,1,2,3]
     k = 1
